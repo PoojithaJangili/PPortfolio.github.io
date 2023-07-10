@@ -14,11 +14,10 @@
         * {
             margin: 0;
             padding: 0;
-            ;
         }
 
         body {
-            background-color: rgb(0, 0, 33);
+            background-color: rgb(3, 3, 53);
             color: white;
             font-family: 'Poppins', sans-serif;
         }
@@ -29,6 +28,8 @@
             align-items: center;
             height: 80px;
             background-color: rgb(18, 18, 62);
+            background-color:#541d84;
+            background-color:#8241bb;
         }
 
         nav ul {
@@ -43,7 +44,7 @@
 
         nav ul li a {
             text-decoration: none;
-            color: white;
+            color: rgb(255, 255, 255);
         }
 
         nav ul li a:hover {
@@ -54,6 +55,7 @@
         main hr{
             border: 0;
             background: #9c97f1;
+            /* background-color: #9d4edd; */
             height: 1.2px;
             margin: 40px 84px;
         }
@@ -99,6 +101,7 @@
             /* background-color: tomato; */
             width: 80%;
             margin: 50px 0;
+            margin-top: -40px;
         }
 
         .purple {
@@ -156,7 +159,6 @@
         }
         .footer{
             background-color: #0e0e1a;
-            /* height: 120px; */
         }
         .footer{
             display: flex;
@@ -168,6 +170,10 @@
             list-style: none;
         }
 
+       .footer li ul a{
+            text-decoration: none;
+        } 
+
         .footer > div{
             width: 230px;
         }
@@ -177,23 +183,11 @@
             padding: 12px 0;
         }
 
-        /* @media screen and (max-width: 2000px) 
-        {
-          body{
-             background-color: red;
-          }
-          footer{
-            display: none;
-          }
-          .firstSection
-          {
-            flex-direction: column-reverse;
-          }
-        } */
-     /* .hr{
-            margin-top: -30px;
-            margin-bottom: -190px;
-        } */
+        .footer ul li a:hover {
+            color: rgb(255, 255, 255);
+            font-size: 1.01rem;
+        }
+
     </style>
 </head>
 
@@ -203,15 +197,11 @@
             <div class="left">Poojitha's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/index.html">Home</a></li>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/intro.html">About</a></li>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/projects.html">Projects</a></li>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/competitions.html">Competitions</a></li>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/achievements.html">Achievements</a></li>
-                    <!-- <li><a href="/">About</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Competitions</a></li>
-                    <li><a href="/">Achievements</a></li> -->
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/competitions.html">Competitions</a></li>
+                    <li><a href="/achievements.html">Achievements</a></li>
                 </ul>
             </div>
         </nav>
@@ -229,50 +219,10 @@
                 </div>
             </div>
             <div class="rightSection">
-                <img src="me.png" alt="">
+                <img src="my.png" alt="">
             </div>
         </section>
-
-        <hr>
-        <!-- <section class="secondSection">
-            <span class="text-gray">What I have done so far</span>
-            <h1>Work Experience</h1>
-
-            <div class="box">
-               <div class="vertical">
-                <div class="vertical-text">
-                    HTML Developer(2010-2012)
-                </div>
-                <div class="vertical-desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, sed deleniti voluptate, debitis error suscipit quo corporis provident amet officia labore consequatur veniam?
-                </div>
-               </div>
-               <div class="vertical">
-                <div class="vertical-text">
-                    HTML Developer(2010-2012)
-                </div>
-                <div class="vertical-desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, sed deleniti voluptate, debitis error suscipit quo corporis provident amet officia labore consequatur veniam?
-                </div>
-               </div>
-               <div class="vertical">
-                <div class="vertical-text">
-                    HTML Developer(2010-2012)
-                </div>
-                <div class="vertical-desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, sed deleniti voluptate, debitis error suscipit quo corporis provident amet officia labore consequatur veniam?
-                </div>
-               </div>
-               <div class="vertical">
-                <div class="vertical-text">
-                    HTML Developer(2010-2012)
-                </div>
-                <div class="vertical-desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, sed deleniti voluptate, debitis error suscipit quo corporis provident amet officia labore consequatur veniam?
-                </div>
-               </div>
-            </div>
-        </section> -->
+<hr>
     </main>
 
     <footer>
@@ -282,20 +232,15 @@
             </div>
             <div class="footer-second">
                 <ul>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/index.html">Home</a></li>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/intro.html">About</a></li>
-                    <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/projects.html">Projects</a></li>
-                    <!-- <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li> -->
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
                 </ul>
             </div>
             <div class="footer-third">
             <ul>
-                <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/competitions.html">Competitions</a></li>
-                <li><a href="https://poojithajangili.github.io/PPortfolio.github.io/achievements.html">Achievements</a></li>
-                <!-- <li>Competitions</li>
-                <li>Achievements</li> -->
+                <li><a href="/competitions.html">Competitions</a></li>
+                <li><a href="/achievements.html">Achievements</a></li>
             </ul>
             </div>
         </div>
